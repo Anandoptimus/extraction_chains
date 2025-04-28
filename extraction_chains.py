@@ -1,3 +1,9 @@
+from pydantic import BaseModel, Field 
+from typing import TypedDict, List
+from langchain.utils.openai_functions import convert_pydantic_to_openai_function
+from langchain.chat_models import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
+from langchain.output_parsers.openai_functions import JsonOutputFunctionsParser
 from typing import Optional
 
 class Person(BaseModel):
