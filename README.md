@@ -37,7 +37,7 @@ cd langchain-person-extraction
 - export OPENAI_API_KEY="your-api-key-here"
 
 ### 4. Run the Script
-- python extract_person_info.py
+- python extraction_chains.py
 
 ## 📚 Notes
 - No Assumptions: The model only extracts data that is explicitly mentioned.
